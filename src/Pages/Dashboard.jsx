@@ -26,7 +26,7 @@ function Dashboard() {
      return <Navigate to='/signin'></Navigate>
   }
   return (
-    <div  className='w-full  min-h-screen flex flex-col items-center text-center p-1' >
+    <div  className='w-full  min-h-screen flex flex-col items-center mb-4 text-center p-1' >
      <Balance value={balance.toFixed(2)}/>
      <Users/>
     </div>
